@@ -11,10 +11,21 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+img {
+  max-width: 30px;
+  height: 20px;
+}
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-block {
+  display: flex;
+}
+
+.country-item {
+  display: flex;
 }
