@@ -1,6 +1,10 @@
 {{#each this}}
   <li class='country-item'>
-    <img src='{{this.flags.svg}}' alt='{{this.name.official}}flag' />
+    <img
+      class='img-flag'
+      src='{{this.flags.svg}}'
+      alt='{{this.name.official}}flag'
+    />
     <h1>{{this.name.official}}</h1>
   </li>
 {{/each}}

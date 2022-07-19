@@ -24,8 +24,14 @@ img {
 
 .country-block {
   display: flex;
+  align-items: center;
 }
 
 .country-item {
   display: flex;
+  align-items: center;
+}
+
+.img-flag {
+  margin-right: 10px;
 }
